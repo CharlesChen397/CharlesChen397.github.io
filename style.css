@@ -1,29 +1,45 @@
 body {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  background-color: white;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
 }
 
 a {
-  color: #1772d0;
-  text-decoration: none;
+    color: #1772d0;
+    text-decoration: none;
 }
 
-a:focus, a:hover {
-  color: #f09228;
-  text-decoration: none;
+a:focus,
+a:hover {
+    color: #f09228;
+    text-decoration: none;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
-heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+h1,
+h2,
+h3 {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* WeChat 页面样式 */
+table {
+    border-radius: 10px;
 }
